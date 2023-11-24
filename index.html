@@ -37,6 +37,20 @@
 
   <!--  In document styles (if necessary)  -->
   <!-- <style></style> -->
+  
+  <!--  banner styles (should likely be moved to stylesheet)  -->
+  <style>
+    .banner{
+      position: fixed;
+      z-index: 900;
+      left: 0;
+      top: 0;
+      width: 100%;
+      background-color: #db2a2a;
+      color: white;
+      padding: 15px 20px;
+    }
+  </style>
 
   
   <!--------->
@@ -45,6 +59,11 @@
 
 </head>
 <body>
+  <noscript>
+    <div class="banner">
+      <p>It looks like JavaScript is currently disabled for your browser. We recommend enabling JavaScript in order for the site to function as anticipated.</p>
+    </div>
+  </noscript>
   <!-- content here -->
 </body>
 </html>
